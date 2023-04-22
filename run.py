@@ -140,6 +140,11 @@ def play_game():
         num_wrong_guesses = 0
         guessed_letters = []
 
+        while not is_game_won(hidden_word) and num_wrong_guesses < 6:
+            guess = handle_input(guessed_letters)
+            guessed_letters.append(guess)
+
+
 
 
 def main():
