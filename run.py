@@ -81,11 +81,24 @@ def choose_random_word(word_list):
     return word.lower()
 
 
-def handle_input():
+def handle_input(guessed_letters):
     """
     Update later
     """
-    
+    while True:
+        try:
+            guess = input("Guess a letter: \n").lower()
+            if len(guess) != 1:
+                raise ValueError("Invalid input. Please enter a single letter")
+            elif guess in guessed_letters:
+                raise ValueError("You already guessed that letter. Try again.")
+            elif not guess.isalpha():
+                raise ValueError("Invalid input. Please enter a letter")
+            else:
+                return guess
+        except ValueError as e:
+            print(e)
+
 
 def main():
     """
@@ -95,6 +108,9 @@ def main():
     name = create_username()
     word_list = select_difficulty_level()
     choose_random_word(word_list)
+    guessed_letters = ['a', 'b', 'c']
+    print(handle_input(guessed_letters))
+    print(handle_input(guessed_letters))
 
 
 if __name__ == "__main__":
