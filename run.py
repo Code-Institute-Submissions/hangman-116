@@ -65,6 +65,7 @@ def select_difficulty_level():
         except ValueError as e:
             print(e)
 
+    # Return the appropriate word list based on the chosen difficulty level.
     if level == "easy":
         return hangman_art_words.easy_words
     elif level == "medium":
