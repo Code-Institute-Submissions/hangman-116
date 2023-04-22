@@ -41,13 +41,13 @@ def create_username():
     while True:
         try:
             name = input("Enter your name please: \n")
-            if not name.strip():
+            if not name.strip(): # Check if the input is empty or only contains whitespace
                 raise ValueError("Please enter a valid username.")
-            if not name.isalnum():
+            if not name.isalnum(): # Check if the input contains only letters and numbers
                 raise ValueError("Username must contain only letters and numbers.")
-        except ValueError as e:
+        except ValueError as e: # Catch any ValueError exception and print the error message
             print(f"{e}")
-        else:
+        else: # If no exception is raised, print a message and return the name
             print(f"You have been condemned to death by hanging {name.upper()}!")
             return name
 
