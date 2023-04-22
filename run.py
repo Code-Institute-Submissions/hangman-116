@@ -127,7 +127,7 @@ def display_game_info(num_wrong_guesses, guessed_letters, hidden_word):
     print(" ".join(hidden_word))
 
 
-def play_game():
+def play_game(name):
     """
     Update later
     """
@@ -168,7 +168,7 @@ def main():
     """
     rules()
     name = create_username()
-    play_game()
+    play_game(name)
     
     
 
