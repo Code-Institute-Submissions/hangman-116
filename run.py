@@ -83,7 +83,7 @@ def choose_random_word(word_list):
 
 def handle_input(guessed_letters):
     """
-    Update later
+    Handles user input and returns a lowercase letter that has not been guessed before.
     """
     while True:
         try:
