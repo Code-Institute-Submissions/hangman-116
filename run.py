@@ -113,7 +113,7 @@ def update_hidden_word(guess, secret_word, hidden_word):
 
 def is_game_won(hidden_word):
     """
-    Update later
+    Returns True if the game is won (i.e., there are no more blank spaces in the hidden word).
     """
     return "_" not in hidden_word
 
