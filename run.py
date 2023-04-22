@@ -159,7 +159,18 @@ def play_game(name):
         else:
             print(f"You lost {name.upper()}. The word was:", secret_word)
 
-
+        while True:
+            try:
+                play_again_input = input("Do you want to play again? (y/n): \n").lower()
+                if play_again_input not in ['y', 'n']:
+                    raise ValueError("Invalid input. Please enter 'y' or 'n'. \n")
+                break
+            except ValueError as e:
+                print(e)
+            
+        if play_again_input == "n":
+            print("Thanks for playing!")
+            break
 
 
 def main():
