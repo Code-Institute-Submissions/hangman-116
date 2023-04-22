@@ -127,6 +127,13 @@ def display_game_info(num_wrong_guesses, guessed_letters, hidden_word):
     print(" ".join(hidden_word))
 
 
+def play_game():
+    """
+    Update later
+    """
+    
+
+
 def main():
     """
     Update later
