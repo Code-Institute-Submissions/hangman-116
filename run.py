@@ -144,6 +144,15 @@ def play_game():
             guess = handle_input(guessed_letters)
             guessed_letters.append(guess)
 
+            if guess in secret_word:
+                print("Correct!")
+                hidden_word = update_hidden_word(guess, secret_word, hidden_word)
+            else:
+                print("Incorrect.")
+                num_wrong_guesses += 1
+            
+            display_game_info(num_wrong_guesses, guessed_letters, hidden_word)
+
 
 
 
