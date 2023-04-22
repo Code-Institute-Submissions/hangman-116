@@ -1,3 +1,6 @@
+import hangman_art_words
+import random
+
 # Print the title of the game
 print(
     f"""
