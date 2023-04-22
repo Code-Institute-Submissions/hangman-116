@@ -186,10 +186,17 @@ def play_game(name):
 
 def main():
     """
-    Update later
+    This function runs the main game loop for Hangman. It first displays the rules of the game,
+    prompts the player to enter a username, and then starts the game. The game consists of the
+    player trying to guess a randomly chosen word by suggesting letters one by one. If the player
+    guesses a letter correctly, it is revealed in the word. If they guess incorrectly, part of a
+    drawing of a "hangman" is displayed. The player wins the game if they guess all the letters
+    in the word before the hangman is fully drawn.
     """
     rules()
     name = create_username()
+    print("This is your only chance to beat the gallows.")
+    print("Are you ready to play? Let's get started!")
     play_game(name)
     
     
