@@ -58,7 +58,7 @@ def select_difficulty_level():
     """
     while True:
         try:
-            level = input("Choose difficulty level (easy, medium, hard): \n")
+            level = input("Choose difficulty level (easy, medium, hard): \n").lower()
             if level not in ["easy", "medium", "hard"]:
                 raise ValueError("Invalid input. Please choose difficulty level (easy, medium, hard): \n")
             break
@@ -79,6 +79,7 @@ def main():
     """
     rules()
     name = create_username()
+    select_difficulty_level()
 
 
 if __name__ == "__main__":
