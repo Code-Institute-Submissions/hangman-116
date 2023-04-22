@@ -137,6 +137,9 @@ def play_game():
         hidden_word = ["_" for _ in secret_word]
         print(" ".join(hidden_word))
 
+        num_wrong_guesses = 0
+        guessed_letters = []
+
 
 
 def main():
