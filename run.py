@@ -107,7 +107,7 @@ def update_hidden_word(guess, secret_word, hidden_word):
     if guess in secret_word:
         for i in range(len(secret_word)):
             if secret_word[i] == guess:
-                hidden_word[i] - guess
+                hidden_word[i] = guess
     return hidden_word
 
 
@@ -152,6 +152,12 @@ def play_game():
                 num_wrong_guesses += 1
             
             display_game_info(num_wrong_guesses, guessed_letters, hidden_word)
+
+        if is_game_won(hidden_word):
+            print(f"You have beaten the hangman, your name is clear {name.upper()}!")
+            print("You are free to go!")
+        else:
+            print(f"You lost {name.upper()}. The word was:", secret_word)
 
 
 
