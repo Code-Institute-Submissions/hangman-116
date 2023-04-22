@@ -52,6 +52,12 @@ def create_username():
             return name
 
 
+def select_difficulty_level():
+    """
+    Prompts the user to choose a difficulty level and returns the corresponding word list.
+    """
+    
+
 def main():
     """
     Update later
