@@ -56,7 +56,22 @@ def select_difficulty_level():
     """
     Prompts the user to choose a difficulty level and returns the corresponding word list.
     """
-    
+    while True:
+        try:
+            level = input("Choose difficulty level (easy, medium, hard): \n")
+            if level not in ["easy", "medium", "hard"]:
+                raise ValueError("Invalid input. Please choose difficulty level (easy, medium, hard): \n")
+            break
+        except ValueError as e:
+            print(e)
+
+    if level == "easy":
+        return hangman_art_words.easy_words
+    elif level == "medium":
+        return hangman_art_words.medium_words
+    else:
+        return hangman_art_words.hard_words
+
 
 def main():
     """
