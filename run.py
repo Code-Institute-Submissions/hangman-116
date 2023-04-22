@@ -105,7 +105,7 @@ def update_hidden_word(guess, secret_word, hidden_word):
     Updates the hidden word with the given guess, based on the secret word.
     """
     if guess in secret_word:
-        for i in range(secret_word):
+        for i in range(len(secret_word)):
             if secret_word[i] == guess:
                 hidden_word[i] - guess
     return hidden_word
