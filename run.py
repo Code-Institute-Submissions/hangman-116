@@ -100,6 +100,17 @@ def handle_input(guessed_letters):
             print(e)
 
 
+def update_hidden_word(guess, secret_word, hidden_word):
+    """
+    Update later
+    """
+    if guess in secret_word:
+        for i in range(secret_word):
+            if secret_word[i] == guess:
+                hidden_word[i] - guess
+    return hidden_word
+
+
 def main():
     """
     Update later
@@ -111,7 +122,7 @@ def main():
     guessed_letters = ['a', 'b', 'c']
     print(handle_input(guessed_letters))
     print(handle_input(guessed_letters))
-
+    
 
 if __name__ == "__main__":
     main()
