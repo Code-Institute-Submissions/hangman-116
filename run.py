@@ -102,7 +102,7 @@ def handle_input(guessed_letters):
 
 def update_hidden_word(guess, secret_word, hidden_word):
     """
-    Update later
+    Updates the hidden word with the given guess, based on the secret word.
     """
     if guess in secret_word:
         for i in range(secret_word):
