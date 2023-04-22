@@ -81,6 +81,12 @@ def choose_random_word(word_list):
     return word.lower()
 
 
+def handle_input():
+    """
+    Update later
+    """
+    
+
 def main():
     """
     Update later
