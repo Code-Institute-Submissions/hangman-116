@@ -131,7 +131,12 @@ def play_game():
     """
     Update later
     """
-    
+    while True:
+        word_list = select_difficulty_level()
+        secret_word = choose_random_word(word_list)
+        hidden_word = ["_" for _ in secret_word]
+        print(" ".join(hidden_word))
+
 
 
 def main():
@@ -140,11 +145,8 @@ def main():
     """
     rules()
     name = create_username()
-    word_list = select_difficulty_level()
-    choose_random_word(word_list)
-    guessed_letters = ['a', 'b', 'c']
-    print(handle_input(guessed_letters))
-    print(handle_input(guessed_letters))
+    play_game()
+    
     
 
 if __name__ == "__main__":
