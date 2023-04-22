@@ -120,7 +120,7 @@ def is_game_won(hidden_word):
 
 def display_game_info(num_wrong_guesses, guessed_letters, hidden_word):
     """
-    Update later
+    Displays the game information, including the hangman art, guessed letters, and current state of the hidden word.
     """
     print(hangman_art_words.hangman_art[num_wrong_guesses])
     print(f"Guessed letters: {', '.join(guessed_letters)}")
