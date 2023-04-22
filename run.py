@@ -12,3 +12,13 @@ print(
     """)
 
 print("Welcome to Hangman!")
+
+def rules():
+    """
+    Displays rules of the game if user inputs 'y', otherwise does nothing.
+    """
+    show_rules = input("Do you want to display the rules? (y/n): \n")
+
+    
+
+rules()
