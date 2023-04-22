@@ -111,6 +111,13 @@ def update_hidden_word(guess, secret_word, hidden_word):
     return hidden_word
 
 
+def is_game_won(hidden_word):
+    """
+    Update later
+    """
+    return "_" not in hidden_word
+
+
 def main():
     """
     Update later
