@@ -129,7 +129,7 @@ def display_game_info(num_wrong_guesses, guessed_letters, hidden_word):
 
 def play_game(name):
     """
-    Update later
+    Runs the main game loop, where the user tries to guess the secret word.
     """
     while True:
         word_list = select_difficulty_level()
