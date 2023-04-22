@@ -75,7 +75,7 @@ def select_difficulty_level():
 
 def choose_random_word(word_list):
     """
-
+    Returns a randomly selected word from the given word list.
     """
     word = random.choice(word_list)
     return word.lower()
