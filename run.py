@@ -73,13 +73,22 @@ def select_difficulty_level():
         return hangman_art_words.hard_words
 
 
+def choose_random_word(word_list):
+    """
+
+    """
+    word = random.choice(word_list)
+    return word.lower()
+
+
 def main():
     """
     Update later
     """
     rules()
     name = create_username()
-    select_difficulty_level()
+    word_list = select_difficulty_level()
+    choose_random_word(word_list)
 
 
 if __name__ == "__main__":
