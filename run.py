@@ -30,4 +30,13 @@ def rules():
         print("But if you guess incorrectly, part of a drawing of a 'hangman' will appear.")
         print("You win the game if you guess all the letters in the word before the hangman is fully drawn.")
 
+
+def create_username():
+    """
+    Prompts the user to enter a username containing only letters and numbers, and returns it.
+    """
+    
+
+
+
 rules()
