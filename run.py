@@ -131,6 +131,8 @@ def play_game(name):
     """
     Runs the main game loop, where the user tries to guess the secret word.
     """
+
+    # Game initialization
     while True:
         word_list = select_difficulty_level()
         secret_word = choose_random_word(word_list)
@@ -140,10 +142,12 @@ def play_game(name):
         num_wrong_guesses = 0
         guessed_letters = []
 
+        # Main game loop
         while not is_game_won(hidden_word) and num_wrong_guesses < 6:
             guess = handle_input(guessed_letters)
             guessed_letters.append(guess)
 
+            # Update game state and display game info
             if guess in secret_word:
                 print("Correct!")
                 hidden_word = update_hidden_word(guess, secret_word, hidden_word)
@@ -153,12 +157,14 @@ def play_game(name):
             
             display_game_info(num_wrong_guesses, guessed_letters, hidden_word)
 
+        # End of game: check if player won or lost
         if is_game_won(hidden_word):
             print(f"You have beaten the hangman, your name is clear {name.upper()}!")
             print("You are free to go!")
         else:
             print(f"You lost {name.upper()}. The word was:", secret_word)
 
+        # Ask if player wants to play again
         while True:
             try:
                 play_again_input = input("Do you want to play again? (y/n): \n").lower()
