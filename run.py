@@ -30,13 +30,24 @@ def rules():
         print("But if you guess incorrectly, part of a drawing of a 'hangman' will appear.")
         print("You win the game if you guess all the letters in the word before the hangman is fully drawn.")
 
+rules()
+
 
 def create_username():
     """
     Prompts the user to enter a username containing only letters and numbers, and returns it.
     """
-    
+    while True:
+        try:
+            name = input("Enter your name please: \n")
+            if not name.strip():
+                raise ValueError("Please enter a valid username.")
+            if not name.isalnum():
+                raise ValueError("Username must contain only letters and numbers.")
+        except ValueError as e:
+            print(f"{e}")
+        else:
+            print(f"You have been condemned to death by hanging {name.upper()}!")
+            return name
 
-
-
-rules()
+#create_username()
