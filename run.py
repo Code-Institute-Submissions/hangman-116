@@ -30,8 +30,6 @@ def rules():
         print("But if you guess incorrectly, part of a drawing of a 'hangman' will appear.")
         print("You win the game if you guess all the letters in the word before the hangman is fully drawn.")
 
-rules()
-
 
 def create_username():
     """
@@ -50,4 +48,14 @@ def create_username():
             print(f"You have been condemned to death by hanging {name.upper()}!")
             return name
 
-#create_username()
+
+def main():
+    """
+    Update later
+    """
+    rules()
+    name = create_username()
+
+
+if __name__ == "__main__":
+    main()
