@@ -118,6 +118,15 @@ def is_game_won(hidden_word):
     return "_" not in hidden_word
 
 
+def display_game_info(num_wrong_guesses, guessed_letters, hidden_word):
+    """
+    Update later
+    """
+    print(hangman_art_words.hangman_art[num_wrong_guesses])
+    print(f"Guessed letters: {', '.join(guessed_letters)}")
+    print(" ".join(hidden_word))
+
+
 def main():
     """
     Update later
