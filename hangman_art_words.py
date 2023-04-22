@@ -1,0 +1,1 @@
+easy_words = ['Pizza', 'Apple', 'Lemon', 'Beach', 'Happy', 'Party', 'Money', 'Rabbit', 'Tiger', 'Music']
