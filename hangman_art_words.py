@@ -1,4 +1,14 @@
-easy_words = ['Pizza', 'Apple', 'Lemon', 'Beach', 'Happy', 'Party', 'Money', 'Rabbit', 'Tiger', 'Music']
+easy_words = [
+    'Pizza',
+    'Apple',
+    'Lemon',
+    'Beach',
+    'Happy',
+    'Party',
+    'Money',
+    'Rabbit',
+    'Tiger',
+    'Music']
 
 medium_words = [
     'Bicycle',
