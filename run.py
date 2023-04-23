@@ -60,7 +60,7 @@ def select_difficulty_level():
         try:
             level = input("Select difficulty: easy, medium, or hard\n").lower()
             if level not in ["easy", "medium", "hard"]:
-                raise ValueError("Invalid input. Choose difficulty: easy, medium, or hard.\n")
+                raise ValueError("Invalid input. Choose easy, medium, hard\n")
             break
         except ValueError as e:
             print(e)
