@@ -102,7 +102,7 @@ def handle_input(guessed_letters):
             print(e)
 
 
-def update_hidden_word(guess, secret_word, hidden_word):
+def update_hidden(guess, secret_word, hidden_word):
     """
     Updates the hidden word with the given guess, based on the secret word.
     """
@@ -160,7 +160,7 @@ def play_game(name):
             # Update game state and display game info
             if guess in secret_word:
                 print("Correct!")
-                hidden_word = update_hidden_word(guess, secret_word, hidden_word)
+                hidden_word = update_hidden(guess, secret_word, hidden_word)
             else:
                 print("Incorrect.")
                 num_wrong_guesses += 1
