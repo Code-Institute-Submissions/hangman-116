@@ -162,6 +162,9 @@ def play_game(name):
             
             display_game_info(num_wrong_guesses, guessed_letters, hidden_word)
 
+            if num_wrong_guesses == 5:
+                print(f"Warning: This is your last chance {name.capitalize()}!")
+
         # End of game: check if player won or lost
         if is_game_won(hidden_word):
             print(f"You have beaten the hangman, your name is clear {name.upper()}!")
