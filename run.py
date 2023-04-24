@@ -10,6 +10,8 @@ print("| |  | | (_| | | | | (_| | | | | | | (_| | | | |")
 print("|_|  |_|\\__,_|_| |_|\\__, |_| |_| |_|\\__,_|_| |_|")
 print("                     __/ |")
 print("                    |___/")
+print()
+print("Welcome to Hangman!")
 
 
 def rules():
