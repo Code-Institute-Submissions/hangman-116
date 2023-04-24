@@ -16,10 +16,10 @@ def rules():
     """
     Displays rules of the game if user inputs 'y', otherwise does nothing.
     """
-    show_rules = input("Do you want to display the rules? (y/n): \n")
+    show_rules = input("Do you want to display the rules? (y/n):\n")
 
     while show_rules.lower() not in ["y", "n"]:
-        show_rules = input("Enter 'y' to show rules or 'n' to skip: \n")
+        show_rules = input("Enter 'y' to show rules or 'n' to skip:\n")
 
     if show_rules.lower() == "y":
         print("Pick a name to play with.")
@@ -36,7 +36,7 @@ def create_username():
     """
     while True:
         try:
-            name = input("Enter your name please: \n")
+            name = input("Enter your name please:\n")
             # Check if the input is empty or only contains whitespace
             if not name.strip():
                 raise ValueError("Please enter a valid username.")
@@ -92,7 +92,7 @@ def handle_input(guessed_letters):
     """
     while True:
         try:
-            guess = input("Guess a letter: \n").lower()
+            guess = input("Guess a letter:\n").lower()
             if len(guess) != 1:
                 raise ValueError("Invalid input. Please enter a single letter")
             elif guess in guessed_letters:
@@ -195,7 +195,7 @@ def play_again():
         try:
             play_again_input = input("Play again? (y/n):\n").lower()
             if play_again_input not in ['y', 'n']:
-                raise ValueError("Invalid input. Please enter 'y' or 'n'. \n")
+                raise ValueError("Invalid input. Please enter 'y' or 'n'.\n")
             break
         except ValueError as e:
             print(e)
