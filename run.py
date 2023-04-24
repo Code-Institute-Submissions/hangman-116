@@ -43,6 +43,9 @@ def create_username():
             # Check if the input contains only letters and numbers
             if not name.isalnum():
                 raise ValueError("Username must use only letters and numbers.")
+            # Check if the input is longer than 20 characters
+            if len(name) > 20:
+                raise ValueError("Username must not exceed 20 characters.")
         # Catch any ValueError exception and print the error message
         except ValueError as e:
             print(f"{e}")
