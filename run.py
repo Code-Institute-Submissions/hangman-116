@@ -38,6 +38,7 @@ def create_username():
     """
     while True:
         try:
+            print()
             name = input("Enter your name please:\n")
             # Check if the input is empty or only contains whitespace
             if not name.strip():
@@ -63,6 +64,7 @@ def select_difficulty_level():
     """
     while True:
         try:
+            print()
             level = input("Select difficulty: easy, medium, or hard\n").lower()
             if level not in ["easy", "medium", "hard"]:
                 raise ValueError("Invalid input. Choose easy, medium, hard\n")
@@ -177,10 +179,12 @@ def play_game(name):
 
         # End of game: check if player won or lost
         if is_game_won(hidden_word):
+            print()
             print("You've beaten the hangman.")
             print(f"Your name is clear {name.upper()}!")
             print("You are free to go!")
         else:
+            print()
             print(f"You lost {name.upper()}. The word was:", secret_word)
 
         # Ask if player wants to play again
