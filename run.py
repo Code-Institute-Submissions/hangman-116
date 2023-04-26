@@ -43,6 +43,9 @@ def create_username():
             # Check if the input is empty or only contains whitespace
             if not name.strip():
                 raise ValueError("Please enter a valid username.")
+            # Check if the input contains spaces
+            if " " in name:
+                raise ValueError("Username cannot contain spaces.")
             # Check if the input contains only letters and numbers
             if not name.isalnum():
                 raise ValueError("Username must use only letters and numbers.")
