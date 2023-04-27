@@ -32,11 +32,15 @@ def rules():
         show_rules = input("Enter 'y' to show rules or 'n' to skip:\n")
 
     if show_rules.lower() == "y":
-        print("Pick a name to play with.")
-        print("Choose a difficulty level (easy, medium, or hard).")
-        print("Guess the letters in the chosen word.")
-        print("Correct guess reveals letter; incorrect guess adds to hangman.")
-        print("Win by guessing all letters before hangman is complete.")
+        rule_lines = [
+            "Pick a name to play with.",
+            "Choose a difficulty level (easy, medium, or hard).",
+            "Guess the letters in the chosen word.",
+            "Correct guess reveals letter; incorrect guess adds to hangman.",
+            "Win by guessing all letters before hangman is complete."
+        ]
+        for _ in rule_lines:
+            print(col["dark_orange"].format(_))
 
 
 def create_username():
