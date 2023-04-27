@@ -177,10 +177,10 @@ def play_game(name):
 
             # Update game state and display game info
             if guess in secret_word:
-                print("Correct!")
+                print(col["green"].format('Correct!'))
                 hidden_word = update_hidden(guess, secret_word, hidden_word)
             else:
-                print("Incorrect.")
+                print(col["red"].format("Incorrect."))
                 num_wrong_guesses += 1
 
             display_game_info(num_wrong_guesses, guessed_letters, hidden_word)
