@@ -197,10 +197,11 @@ def play_game(name):
             print()
             print("You've beaten the hangman.")
             print(f"Your name is clear {name.upper()}!")
-            print("You are free to go!")
+            print(col["green"].format("You are free to go!"))
         else:
             print()
-            print(f"You lost {name.upper()}. The word was:", secret_word)
+            print("The word was:", secret_word)
+            print(col["red"].format(f"You lost {name.upper()}."))
 
         # Ask if player wants to play again
         if not play_again():
