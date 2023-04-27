@@ -237,6 +237,7 @@ def main():
     The player wins the game if they guess all the letters
     in the word before the hangman is fully drawn.
     """
+    display_logo()
     rules()
     name = create_username()
     print("This is your only chance to beat the gallows.")
