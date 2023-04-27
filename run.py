@@ -1,5 +1,6 @@
 import hangman_art_words
 import random
+from colors import col
 
 # Print the title of the game
 print(" _    _")
