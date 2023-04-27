@@ -2,17 +2,24 @@ import hangman_art_words
 import random
 from colors import col
 
-# Print the title of the game
-print(" _    _")
-print("| |  | |")
-print("| |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __")
-print("|  __  |/ _` | '_ \\ / _` | '_ ` _ \\ / _` | '_ \\")
-print("| |  | | (_| | | | | (_| | | | | | | (_| | | | |")
-print("|_|  |_|\\__,_|_| |_|\\__, |_| |_| |_|\\__,_|_| |_|")
-print("                     __/ |")
-print("                    |___/")
-print()
-print("Welcome to Hangman!")
+
+def display_logo():
+    """
+    Print the title of the game
+    """
+    logo = [
+        " _    _",
+        "| |  | |",
+        "| |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __",
+        "|  __  |/ _` | '_ \\ / _` | '_ ` _ \\ / _` | '_ \\",
+        "| |  | | (_| | | | | (_| | | | | | | (_| | | | |",
+        "|_|  |_|\\__,_|_| |_|\\__, |_| |_| |_|\\__,_|_| |_|",
+        "                     __/ |",
+        "                    |___/",
+        "Welcome to Hangman!"
+    ]
+    for _ in logo:
+        print(col["orange_red"].format(_))
 
 
 def rules():
