@@ -75,8 +75,8 @@ Hangman is a classic word guessing game that provides a simple yet entertaining 
 * Word selection. The game randomly selects a word from one of the three available predefined lists of words.
 * Difficulty settings. The game offers three difficulty settings, easy, medium and hard.
 * Visual interface. Appealing interface that is easy to navigate and understand.
-* Letter input. User can input thir guess letter by letter to guess the hidden word.
-* Incorrect guess tracking. Visuallly drawing a part of the hangman figure.
+* Letter input. User can input their guess letter by letter to guess the hidden word.
+* Incorrect guess tracking. Visually drawing a part of the hangman figure.
 * Win or loss detection. Detect when the player has either successfully guessed the entire word or made too many incorrect guesses and lost the game.
 * Play again at the end of the game.
 
@@ -208,11 +208,11 @@ The game was manually tested extensively using codeanywhere terminal, and once t
 | Display Rules | To display rules or skip them using either "y" or "n" | Input "y" to display, input "n" to skip | As Expected | ![Display rules](/readme_images/rules.PNG) |
 | Enter Username | To save username and use it in personalised messages | Input alphanumeric name | As Expected | ![Enter username](/readme_images/username.PNG) |
 | Personalized message including username | To display personalized message | None | As Expected | ![Personalized message](/readme_images/difficulty_setting.PNG) |
-| Select Difficulty   | To retrievea  word from the selected difficulty option | Input easy, medium or hard | As Expected | ![Difficulty](/readme_images/difficulty_setting.PNG) |
+| Select Difficulty   | To retrieve word from the selected difficulty option | Input easy, medium or hard | As Expected | ![Difficulty](/readme_images/difficulty_setting.PNG) |
 | Guess a letter   | Prompts user to guess a letter | Input a letter guess | As Expected | ![Guess a letter](/readme_images/guess-a-letter.PNG) |
 | Guess Correct   | To display correct, gallows with no penalty applied, a list of already guessed letters and updated hidden word | Guessed a correct letter | As Expected | ![Guess correct](/readme_images/correct_guess.PNG) |
 | Guess Incorrect   | To display incorrect, gallows with penalty applied, a list of already guessed letters and updated hidden word | Guessed an incorrect letter | As Expected | ![Guess incorrect](/readme_images/incorrect_guess.PNG) |
-| Guess Invalid   | To display a message saying to input a single letter | Invalid input such as e.g too many letter or a number | As Expected | ![Guess invalid](/readme_images/guess_invalid.PNG) |
+| Guess Invalid   | To display a message saying to input a single letter | Invalid input such as e.g too many letters or a number | As Expected | ![Guess invalid](/readme_images/guess_invalid.PNG) |
 | Guessed Already   | To display a message saying guessed already | Input a letter that was already tried  | As Expected | ![Guess invalid](/readme_images/guessed_already.PNG) |
 | Hangman gallows   | To display and update hangman gallows | Input a letter guess  | As Expected | ![Gallows](/readme_images/gallows.PNG) |
 | Win   | To display win message | Guess the word in less than six tries | As Expected | ![Win game](/readme_images/win.PNG) |
