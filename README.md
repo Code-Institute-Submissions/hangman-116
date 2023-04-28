@@ -13,3 +13,12 @@ Overall, Hangman is a fun and challenging game that requires both guessing skill
 ## Table of Contents
 
 
+## How to Play
+
+In this implementation of Hangman, you will play against the computer. 
+You will be prompted to choose a difficulty level (easy, medium, or hard), and the computer will randomly select a word from a list of words corresponding to that level. 
+You will then have to guess the letters in the chosen word before the hangman is complete.
+
+## Logic flowchart
+
+![Flowchart](/readme_images/hangman_flowchart.PNG)
