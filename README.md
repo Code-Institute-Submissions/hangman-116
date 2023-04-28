@@ -10,8 +10,31 @@ Overall, Hangman is a fun and challenging game that requires both guessing skill
 
 [View Hangman live project here](https://hangmans-noose.herokuapp.com/)
 - - -
-## Table of Contents
 
+## Table of Contents
+### [How to play](#how-to-play-1)
+### [Logic Flowchart](#logic-flowchart-1)
+### [User Experience (UX)](#user-experience-ux-1)
+* [User Stories](#user-stories)
+### [Features](#features-1)
+* [Existing Features](#existing-features)
+### [Features Left to Implement](#features-left-to-implement-1)
+### [Design](#design-1)
+### [Technologies Used](#technologies-used-1)
+### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
+### [Testing](#testing-1)
+### [Manual Testing](#manual-testing-1)
+### [Input validation testing](#input-validation-testing-1)
+### [Fixed Bugs](#fixed-bugs-1)
+### [Deployment](#deployment-1)
+* [Deployment to Heroku](#deployment-to-heroku)
+* [Forking the GitHub Repository](#forking-the-github-repository)
+* [Local Clone](#local-clone)
+### [Credits](#credits-1)
+* [Code](#code)
+* [Content](#content)
+### [Acknowledgements](#acknowledgements-1)
+---
 
 ## How to Play
 
