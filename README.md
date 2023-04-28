@@ -22,3 +22,27 @@ You will then have to guess the letters in the chosen word before the hangman is
 ## Logic flowchart
 
 ![Flowchart](/readme_images/hangman_flowchart.PNG)
+
+## User Experience (UX)
+
+Hangman is a classic word guessing game that provides a simple yet entertaining user experience. The user is presented with a blank series of dashes that represent the letters of a mystery word. They have to guess the letters in the word, one at a time. With each correct guess, the letter is revealed in the corresponding position(s). However, with each incorrect guess, a part of a hangman's body is drawn. The user can guess until they either correctly guess the entire word or the hangman is fully drawn, resulting in a loss. The game is easy to learn and provides a good balance of challenge and reward. It is also a great way to improve vocabulary and spelling skills while having fun.
+
+### User Stories
+
+* First-time visitor goals
+    * Understand how the game works. Clear instructions and what the objective of the game is.
+    * Play the game. Once the user understands the game, they will likely want to play it.
+    * Enjoy the experience. The hangman game should be engaging and fun for the user.
+
+* Returning visitor goals
+    * Continue playing. The returning visitor may have enjoyed playing the game and wants to play again.
+    * Share with friends. Inviting friends to give the game a try.
+    * Exploring new features, if there is any.
+
+* Frequent user goals
+    * Improving their speed and accuracy in guessing words.
+    * Increasing the difficulty level of the game to challenge themselves.
+    * Sharing the game with others or inviting friends to play.
+    * Exploring new features, if there is any.
+
+---
