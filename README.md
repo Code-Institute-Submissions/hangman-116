@@ -273,3 +273,18 @@ By forking the repository, we make a copy of the original repository on our GitH
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type `git clone` and then paste The URL copied in the step 3.
 7. Press Enter and your local clone will be created.
+
+## Credits
+
+### Code
+
+* I gained understanding of python through code institute lessons.
+* I gained more python concepts through Python for begginers written by Brady Ellison.
+* Python 3.11.3 documentation.
+* ANSI color documentation.
+* MDN web docs for python [Documentation](https://developer.mozilla.org/en-US/docs/Glossary/Python).
+
+### Content
+
+* Hangman game.
+* All content was written by the developer.
