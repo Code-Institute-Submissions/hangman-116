@@ -172,3 +172,7 @@ CI Python Linter was used to test run.py, colors.py and hangman_art_words.py
 
 ![run.py linter check](/readme_images/hangman_art_words_linter_check.PNG)
 </details>
+
+## Manual Testing
+
+The game was manually tested extensively using codeanywhere terminal, and once the website was deployed on Heroku it was manually tested again, during the creation of the code to the end. Testing of rules display, username input validation, select difficulty input validation, gallows ASCII image display, correct and incorrect answers and finally win or lose display and play again feature.
