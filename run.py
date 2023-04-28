@@ -189,7 +189,7 @@ def play_game(name):
 
             display_game_info(num_wrong_guesses, guessed_letters, hidden_word)
 
-            if num_wrong_guesses == 5:
+            if num_wrong_guesses == 5 and not is_game_won(hidden_word):
                 print(f"Warning: final chance {name.capitalize()}!")
 
         # End of game: check if player won or lost
