@@ -196,3 +196,38 @@ The game was manually tested extensively using codeanywhere terminal, and once t
 | Lose   | To display lose message | Fail to guess the word in six tries | As Expected | ![Lose game](/readme_images/lose.PNG) |
 | Play Again   | To display play again | Choose "y" for yes and "n" to end the game | As Expected | ![Play again](/readme_images/play_again.PNG) |
 
+## Input validation testing
+
+* Display rules
+    * Cannot continue with empty input
+    * Must be "y" or "n"
+
+![Rules validation](/readme_images/rules_validation.PNG)
+
+* Enter username
+    * Username cannot be empty
+    * Username cannot contain spaces
+    * Username must be alphanumeric
+    * Username cannot contain special characters
+    * Username cannot be longer than 20 characters
+
+![Username validation](/readme_images/username_validation.PNG)
+
+* Select difficuly
+    * Cannot continue with empty input
+    * Must be "easy", "medium" or "hard"
+
+![Difficulty validation](/readme_images/difficulty_validation.PNG)
+
+* Guess a letter
+    * Cannot continue with empty input
+    * Must be a single letter
+    * Must be a letter
+
+![Letter validation](/readme_images/letter_validation.PNG)
+
+* Play again
+    * Cannot continue with empty input
+    * Must be "y" or "n"
+
+![Play again validation](/readme_images/play_again_validation.PNG)
