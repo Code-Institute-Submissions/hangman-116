@@ -46,3 +46,70 @@ Hangman is a classic word guessing game that provides a simple yet entertaining 
     * Exploring new features, if there is any.
 
 ---
+
+## Features
+
+* Word selection. The game randomly selects a word from one of the three available predefined lists of words.
+* Difficulty settings. The game offers three difficulty settings, easy, medium and hard.
+* Visual interface. Appealing interface that is easy to navigate and understand.
+* Letter input. User can input thir guess letter by letter to guess the hidden word.
+* Incorrect guess tracking. Visuallly drawing a part of the hangman figure.
+* Win or loss detection. Detect when the player has either successfully guessed the entire word or made too many incorrect guesses and lost the game.
+* Play again at the end of the game.
+
+### Existing Features
+
+* Intro screen
+    * Displays logo and a welcome message.
+
+![Intro Screen](/readme_images/intro.PNG)
+
+* Rules
+    * User can choose to display rules or skip them using "y" or "n".
+
+![Rules](/readme_images/rules.PNG)
+
+* Enter a username
+
+![Username](/readme_images/username.PNG)
+
+* Introduction message and difficulty setting
+
+![Difficulty Setting](/readme_images/difficulty_setting.PNG)
+
+* Promp user to make a guess
+
+![Guess a letter](/readme_images/guess-a-letter.PNG)
+
+* Correct Guess
+    * If letter is guessed, "Correct" message displays green.
+
+![Correct guess](/readme_images/correct-guess.PNG)
+
+* Incorrect Guess
+    * If letter is not guessed, "Incorrect" message displays red.
+
+![Incorrect guess](/readme_images/incorrect-guess.PNG)
+
+* User guesses the word correctly
+    * Message that confirms hangman is beaten.
+
+![Won game](/readme_images/win.PNG)
+
+* User is out of guesses
+    * Message that confirms a lost game.
+
+![Lose](/readme_images/lose.PNG)
+
+* Play again
+
+![Play again](/readme_images/play-again.PNG)
+
+## Features Left to Implement
+
+* Additional words might be available.
+* Different word topics
+* Scoring system
+* Two player option
+
+---
