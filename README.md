@@ -79,17 +79,17 @@ Hangman is a classic word guessing game that provides a simple yet entertaining 
 
 * Promp user to make a guess
 
-![Guess a letter](/readme_images/guess-a-letter.PNG)
+![Guess a letter](/readme_images/guess_a_letter.PNG)
 
 * Correct Guess
     * If letter is guessed, "Correct" message displays green.
 
-![Correct guess](/readme_images/correct-guess.PNG)
+![Correct guess](/readme_images/correct_guess.PNG)
 
 * Incorrect Guess
     * If letter is not guessed, "Incorrect" message displays red.
 
-![Incorrect guess](/readme_images/incorrect-guess.PNG)
+![Incorrect guess](/readme_images/incorrect_guess.PNG)
 
 * User guesses the word correctly
     * Message that confirms hangman is beaten.
@@ -103,7 +103,7 @@ Hangman is a classic word guessing game that provides a simple yet entertaining 
 
 * Play again
 
-![Play again](/readme_images/play-again.PNG)
+![Play again](/readme_images/play_again.PNG)
 
 ## Features Left to Implement
 
