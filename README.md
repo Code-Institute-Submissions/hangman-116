@@ -147,3 +147,28 @@ Hangman is a classic word guessing game that provides a simple yet entertaining 
     * To deploy the project.
 * [CI Python Linter](https://pep8ci.herokuapp.com/)
     * Check code for any issues.
+
+## Testing 
+
+CI Python Linter was used to test run.py, colors.py and hangman_art_words.py
+
+<details>
+<summary> run.py CI Python Linter check
+</summary>
+
+![run.py linter check](/readme_images/run_linter_check.PNG)
+</details>
+
+<details>
+<summary> colors.py CI Python Linter check
+</summary>
+
+![run.py linter check](/readme_images/colors_linter_check.PNG)
+</details>
+
+<details>
+<summary> hangman_art_words.py CI Python Linter check
+</summary>
+
+![run.py linter check](/readme_images/hangman_art_words_linter_check.PNG)
+</details>
