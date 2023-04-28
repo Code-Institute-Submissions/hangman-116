@@ -288,3 +288,8 @@ By forking the repository, we make a copy of the original repository on our GitH
 
 * Hangman game.
 * All content was written by the developer.
+
+## Acknowledgements
+
+ * My mentor Mitko Bachvarov provided helpful feedback.
+ * Slack community for encouragement.
