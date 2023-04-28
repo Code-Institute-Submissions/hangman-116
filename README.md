@@ -231,3 +231,9 @@ The game was manually tested extensively using codeanywhere terminal, and once t
     * Must be "y" or "n"
 
 ![Play again validation](/readme_images/play_again_validation.PNG)
+
+## Fixed Bugs
+
+* There is a warning notice that informs the user that there is just one chance remaining if he reaches his fifth guess before attempting to use a last guess. This meant that even if the user correctly identified the final letter after receiving a warning after his fifth guess and so winning the game, the warning message would still appear.
+* This bug was fixed in the play_game function which was refactored to keep track of the is_game_won function in the code that runs the warning, final chance message, which can be found in the commits history.
+* This bug was indentified by playing the game multiple times and trying to get to all possible outcomes that a user might experience while playing the game.
