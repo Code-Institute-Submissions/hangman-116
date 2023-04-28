@@ -126,3 +126,7 @@ Hangman is a classic word guessing game that provides a simple yet entertaining 
     * [Draw.io](http://draw.io/)
 
 ---
+
+## Technologies Used
+
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
